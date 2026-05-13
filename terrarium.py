@@ -2036,6 +2036,7 @@ def cleanup(sig=None, frame=None):
     stop_event.set()
     for name in list(processes):
         stop_recording(name)
+    os.system('stty sane')
     sys.exit(0)
 
 
