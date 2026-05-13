@@ -43,10 +43,14 @@ CAMERAS = {
     "19": ("Dorm Alternate",		"dmrm2"),
     "20": ("Closet",			"dmcl"),
     "21": ("Jacuzzi",			"jckz"),
-    "22": ("Director",			"dirc"),
+    "22": ("Director Mode",		"dirc"),
     "23": ("Cameraman",			"cameraman2"),
-    "24": ("Bar",			"brrr"),
-    "25": ("Job Board",			"jobb"),
+    "24": ("jetnep",			"jet"),
+    "25": ("bendub",			"ben"),
+    "26": ("Laura",			"laura"),
+    "27": ("Damiel",			"damiel"),
+    "28": ("Bar",			"brrr"),
+    "29": ("Job Board",			"jobb"),
 }
 
 SEASON       = 5
