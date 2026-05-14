@@ -55,7 +55,7 @@ CAMERAS = {
 }
 
 SEASON       = 5
-SERVERS      = list("abcdefghi")
+SERVERS      = list("bcefghijk")
 SESSION_FILE = os.path.join(os.path.expanduser("~"), ".terrarium_session")
 CHAT_ROOMS   = ["Global", "Season Pass"]
 
