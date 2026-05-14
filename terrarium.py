@@ -49,8 +49,9 @@ CAMERAS = {
     "25": ("bendub",			"ben"),
     "26": ("Laura",			"laura"),
     "27": ("Damiel",			"damiel"),
-    "28": ("Bar",			"brrr"),
-    "29": ("Job Board",			"jobb"),
+    "28": ("Aryeh",			"aryeh"),
+    "29": ("Bar",			"brrr"),
+    "30": ("Job Board",			"jobb"),
 }
 
 SEASON       = 5

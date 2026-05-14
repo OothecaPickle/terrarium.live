@@ -132,11 +132,12 @@ end
 -- command to generate:
 --curl 'https://api.fishtank.live/v1/live-streams' -H 'Referer: https://www.fishtank.live/' | jq -r '.liveStreams | map("[\"" + .id + "\"]=\"" + .name + "\"") | join(",\n")'
 local room_titles = {
-["jet-5"]="jetnep",
 ["dirc-5"]="Director Mode",
+["jet-5"]="jetnep",
+["ben-5"]="bendub",
 ["laura-5"]="Laura",
 ["damiel-5"]="Damiel",
-["ben-5"]="bendub",
+["aryeh-5"]="Aryeh",
 ["dmrm-5"]="Dorm",
 ["dmrm2-5"]="Dorm Alternate",
 ["dmcl-5"]="Closet",
@@ -167,7 +168,7 @@ local DIRECTOR_BTN = "dirc-5"
 local BACK_BTN = "_BACK"
 
 local PTZ_BTN = "_PTZ"
-local side_buttons = {DIRECTOR_BTN, BACK_BTN} -- you can put room ids here like "director-mode-3"
+local side_buttons = {DIRECTOR_BTN, "cameraman2-5", "jet-5", "laura-5", BACK_BTN} -- you can put room ids here like "director-mode-3"
 
 local function points_to_ass_path(points, x_mult, y_mult, x_off, y_off)
 	local path = "m " .. points[1]*x_mult + x_off .. " " .. points[2]*y_mult + y_off .. " l"
